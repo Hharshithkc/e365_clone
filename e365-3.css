@@ -1,0 +1,20 @@
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(45, 209, 45);
+}
+
+#p1
+{
+    color: red;
+    text-align: end;
+    margin-top: 1px;
+    font-size: 40px;
+}
+
+.backtomenu
+{
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,799 @@
+.mainbackground1{
+    height: 900px;
+    width: 100%;
+}
+
+
+/* navbar */
+.navbar{
+    height: 120px;
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 10px;
+    background-color: rgb(27, 209, 27);
+    position: fixed;
+    display: flex;
+    z-index: 3;
+
+}
+
+/* rrcelogo */
+.rrcelogo{
+background-image: url("https://th.bing.com/th?id=OIP.GYXgFSTm-rEEPRrZHYkMBgAAAA&w=203&h=123&c=8&rs=1&qlt=90&o=6&cb=13&dpr=1.5&pid=3.1&rm=2");
+height: 130px;
+width: 180px;
+margin-top: 10px;
+margin-left: 10px;
+background-size: contain;
+background-repeat: no-repeat;
+}
+/* rrceng */
+.rrceng{
+
+    width: 200px;
+    height: 100px;
+    margin-left: 300px;
+    
+    
+}
+/* #p1 used for rrceng,icons in navbar */
+#p1
+{
+    font-size: 50px;
+    
+    text-transform: uppercase;
+    color: antiquewhite;
+}
+
+
+/* notification */
+
+.bell{
+    height: 100px;
+    width: 100px;
+    margin-left: 600px;
+    color: wheat;
+    font-size: 55px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+/* logout */
+.logout{
+    font-size: 55px;
+    margin-left: 100px;
+    
+    color: antiquewhite;
+}
+
+a{
+    color: white;
+}
+/* closing navbar */
+
+
+
+/* small nav bar */
+.smallnav{
+    display: flex;
+    justify-content: space-between;
+    
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    margin-top: 125px;
+     color: green;
+     font-size: 50px;
+     text-transform: capitalize;
+     padding-top: 30px;
+}
+
+
+/* paragraph for labels */
+.p1{
+    padding-top: 1px;
+    text-transform: capitalize;
+    font-size: 40px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+#img1{
+    height: 150px;
+    width: 180px;
+    padding-left: 70px;
+    padding-top: 10px;
+
+}
+
+
+
+
+/* boxes */
+.box
+{
+    margin-top: 30px;
+   height: 250px;
+   width: 300px;
+   border: 3px solid rgb(153, 147, 147);
+ 
+}
+
+
+/* first row */
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 250px;
+}
+
+/* 2nd row */
+
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+    
+    height: 300px;
+    width: 100%;
+
+    position: absolute;
+    margin-top: 550px;
+}
+
+/* 3rd row */
+.row3{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 850px;
+      
+}
+
+/* 4rd row */
+.row4{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 1150px;
+      
+}
+
+/* 5th row */
+.row5{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 1450px;
+      
+}
+
+/* 6th row */
+.row6{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 1750px;
+      
+}
+
+/* 7th row */
+.row7{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 2050px;
+      
+}
+
+
+/* 8th row */
+.row8{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 2350px;
+      
+}
+
+
+/* 9th row */
+.row9{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 2650px;
+      
+}
+
+/* 10th row */
+.row10{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 2950px;
+      
+}
+
+/* footer line */
+#pf{
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    color: green;
+}
+
+.footer{
+    height: 40px;
+    width: 100%;
+    margin-top: 3270px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+/* responsiveness */
+
+@media(max-width:400px)
+{
+
+.mainbackground1{
+    height: 100px;
+    width: 100%;
+}
+
+
+/* navbar */
+.navbar{
+    height: 70px;
+    border-radius: 1px;
+    width: 370px;
+    background-color: rgb(27, 209, 27);
+    position: fixed;
+    display: flex;
+    z-index: 3;
+
+}
+
+/* rrcelogo */
+.rrcelogo{
+background-image: url("https://th.bing.com/th?id=OIP.GYXgFSTm-rEEPRrZHYkMBgAAAA&w=203&h=123&c=8&rs=1&qlt=90&o=6&cb=13&dpr=1.5&pid=3.1&rm=2");
+height: 60px;
+margin-top: 10px;
+width: 90px;
+background-size: contain;
+background-repeat: no-repeat;
+}
+/* rrceng */
+.rrceng{
+
+    width:70px;
+    height: 30px;
+    margin-left: 30px;
+    
+}
+/* #p1 used for rrceng,icons in navbar */
+#p1
+{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: antiquewhite;
+}
+
+
+/* notification */
+
+.bell{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    color: wheat;
+    font-size: 25px;
+
+}
+
+/* logout */
+.logout{
+    font-size: 25px;
+    margin-left: 30px;
+    color: antiquewhite;
+}
+
+
+/* closing navbar */
+
+
+
+/* small nav bar */
+.smallnav{
+    display: flex;
+    justify-content: space-between;
+    
+    height: 50px;
+    width: 350px;
+    position: absolute;
+    margin-top: 50px;
+     color: green;
+     font-size: 25px;
+     text-transform: capitalize;
+     padding-top: 30px;
+}
+
+
+/* paragraph for labels */
+.p1{
+    padding-top: 1px;
+    text-transform: capitalize;
+    font-size: 22px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+#img1{
+    height: 40px;
+    width: 40px;
+    padding-left: 35px;
+    padding-top: 10px;
+
+}
+
+
+
+
+/* boxes */
+.box
+{
+    margin-top: 30px;
+   height: 140px;
+   width: 120px;
+   border: 3px solid rgb(153, 147, 147);
+ 
+}
+
+
+/* first row */
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 100px;
+}
+
+/* 2nd row */
+
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+    
+    height: 300px;
+    width: 100%;
+
+    position: absolute;
+    margin-top: 260px;
+}
+
+/* 3rd row */
+.row3{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 420px;
+      
+}
+
+/* 4rd row */
+.row4{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 580px;
+      
+}
+
+/* 5th row */
+.row5{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 740px;
+      
+}
+
+/* 6th row */
+.row6{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 900px;
+      
+}
+
+/* 7th row */
+.row7{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 1060px;
+      
+}
+
+
+/* 8th row */
+.row8{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 1220px;
+      
+}
+
+
+/* 9th row */
+.row9{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 1380px;
+      
+}
+
+/* 10th row */
+.row10{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 1540px;
+      
+}
+
+/* footer line */
+#pf{
+    font-size: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: green;
+}
+
+.footer{
+    height: 40px;
+    width: 350px;
+    margin-left: 30px;
+    margin-top: 1740px;
+    position: absolute;
+}
+
+}
+
+/* closing max-width :400px */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsiveness for 500 */
+
+@media(max-width:500px)
+{
+
+.mainbackground1{
+    height: 2200px;
+    width: 100%;
+}
+
+
+/* navbar */
+.navbar{
+    height: 70px;
+    border-radius: 1px;
+    width: 430px;
+    background-color: rgb(27, 209, 27);
+    position: fixed;
+    display: flex;
+    z-index: 3;
+
+}
+
+/* rrcelogo */
+.rrcelogo{
+background-image: url("https://th.bing.com/th?id=OIP.GYXgFSTm-rEEPRrZHYkMBgAAAA&w=203&h=123&c=8&rs=1&qlt=90&o=6&cb=13&dpr=1.5&pid=3.1&rm=2");
+height: 60px;
+margin-top: 10px;
+width: 90px;
+background-size: contain;
+background-repeat: no-repeat;
+}
+/* rrceng */
+.rrceng{
+
+    width:70px;
+    height: 30px;
+    margin-left: 30px;
+    
+}
+/* #p1 used for rrceng,icons in navbar */
+#p1
+{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: antiquewhite;
+}
+
+
+/* notification */
+
+.bell{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    color: wheat;
+    font-size: 25px;
+
+}
+
+/* logout */
+.logout{
+    font-size: 25px;
+    margin-left: 30px;
+    color: antiquewhite;
+}
+
+
+/* closing navbar */
+
+
+
+/* small nav bar */
+.smallnav{
+    display: flex;
+    justify-content: space-between;
+    
+    height: 50px;
+    width: 350px;
+    position: absolute;
+    margin-top: 50px;
+     color: green;
+     font-size: 25px;
+     text-transform: capitalize;
+     padding-top: 30px;
+}
+
+
+/* paragraph for labels */
+.p1{
+    padding-top: 1px;
+    text-transform: capitalize;
+    font-size: 22px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+#img1{
+    height: 40px;
+    width: 40px;
+    padding-left: 35px;
+    padding-top: 10px;
+
+}
+
+
+
+
+/* boxes */
+.box
+{
+    margin-top: 30px;
+   height: 140px;
+   width: 120px;
+   border: 3px solid rgb(153, 147, 147);
+ 
+}
+
+
+/* first row */
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 100px;
+}
+
+/* 2nd row */
+
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+    
+    height: 300px;
+    width: 100%;
+
+    position: absolute;
+    margin-top: 260px;
+}
+
+/* 3rd row */
+.row3{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 420px;
+      
+}
+
+/* 4rd row */
+.row4{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 580px;
+      
+}
+
+/* 5th row */
+.row5{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 740px;
+      
+}
+
+/* 6th row */
+.row6{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 900px;
+      
+}
+
+/* 7th row */
+.row7{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 1060px;
+      
+}
+
+
+/* 8th row */
+.row8{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 1220px;
+      
+}
+
+
+/* 9th row */
+.row9{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 1380px;
+      
+}
+
+/* 10th row */
+.row10{
+    
+    display: flex;
+    justify-content: space-evenly;    
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 1540px;
+      
+}
+
+/* footer line */
+#pf{
+    font-size: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: green;
+}
+
+.footer{
+    height: 40px;
+    width: 350px;
+    margin-left: 30px;
+    margin-top: 1740px;
+    position: absolute;
+}
+
+}
+
+/* closing max-width :500px */
